@@ -1,0 +1,7 @@
+Solr uses schema file to identify the information of the documents like field, field type and configs that affects the searching and indexing of the document.
+Solr can be used without a schema file, which is known as a schemaless mode.
+In this mode, Solr will guess the field type and load default configs.
+But it is recommended to use a schema file before moving to production.
+Here we are going to use managed-schema, which is the default schema file used by Solr and can be updated via Schema API at runtime.
+Guruputra is Good boy.
+Good info.
